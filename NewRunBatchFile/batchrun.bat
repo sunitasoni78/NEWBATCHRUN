@@ -1,4 +1,4 @@
-java set projectLocation=E:\JOB\eclipsworkspace\NewRunBatchFile
+set projectLocation=E:\JOB\eclipsworkspace\NewRunBatchFile
 cd %projectLocation%
 set classpath=%projectLocation%\bin;%projectLocation%\lib\*;
 java org.testng.TestNG %projectLocation%\testng.xml
